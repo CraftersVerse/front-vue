@@ -28,7 +28,7 @@
             const addVenue = () => {
             // Make a POST request to the Django API endpoint
             axios
-                .post('http://54.88.151.16:8000/api/application/exam-venues/', {
+                .post('https://54.88.151.16:8000/api/application/exam-venues/', {
                 venueID: venueID.value,
                 venueNum: venueNum.value,
                 capacity: capacity.value,

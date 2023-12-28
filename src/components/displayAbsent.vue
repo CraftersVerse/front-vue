@@ -141,7 +141,7 @@
           };
   
           const response = await axios.post(
-            'http://54.88.151.16:8000/api/application/display-absent/',
+            'https://54.88.151.16:8000/api/application/display-absent/',
             formData,
             {
               headers: {

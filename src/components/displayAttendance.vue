@@ -135,7 +135,7 @@ export default {
         };
 
         const response = await axios.post(
-          'http://54.88.151.16:8000/api/application/display-attendance/',
+          'https://54.88.151.16:8000/api/application/display-attendance/',
           formData,
           {
             headers: {

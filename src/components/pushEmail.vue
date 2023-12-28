@@ -137,7 +137,7 @@
           };
   
           const response = await axios.post(
-            'http://54.88.151.16:8000/api/application/push-email/',
+            'https://54.88.151.16:8000/api/application/push-email/',
             formData,
             {
               headers: {

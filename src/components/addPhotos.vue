@@ -57,7 +57,7 @@
         };
   
         // Make an API call to send the form data to Django backend
-        fetch('http://54.88.151.16:8000/api/application/add-photos/', {
+        fetch('https://54.88.151.16:8000/api/application/add-photos/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

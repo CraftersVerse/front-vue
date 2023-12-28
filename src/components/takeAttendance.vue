@@ -77,7 +77,7 @@
             this.$store.commit('setExamVenue', formData.examVenue.toUpperCase())
 
             const response = await axios.post(
-              'http://54.88.151.16:8000/api/application/take-attendance/',
+              'https://54.88.151.16:8000/api/application/take-attendance/',
               formData,
               {
                 headers: {
