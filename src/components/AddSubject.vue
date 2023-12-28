@@ -28,7 +28,7 @@
             const addSubject = () => {
             // Make a POST request to the Django API endpoint
             axios
-                .post('http://54.88.151.16:8000/api/application/exam-subject/', {
+                .post('http://127.0.0.1:8000/api/application/exam-subject/', {
                 subjectID: subjectID.value,
                 subjectName: subjectName.value,
                 numOfStudents: numOfStudents.value,

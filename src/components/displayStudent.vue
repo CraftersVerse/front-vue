@@ -101,7 +101,7 @@ export default {
     async displayStudent() {
 
       try {
-        const response = await axios.get('https://54.88.151.16:8000/api/application/display-student/');
+        const response = await axios.get('http://127.0.0.1:8000/api/application/display-student/');
         console.log('Response from backend:', response);
         this.studentData = response.data['Enroll Data'];
 
