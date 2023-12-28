@@ -59,7 +59,7 @@
                     return;
                 }
                 axios
-                    .post('http://127.0.0.1:8000/api/application/exam-arrange/',{
+                    .post('http://54.88.151.16:8000/api/application/exam-arrange/',{
                         start_date : start_date.value,
                         end_date : end_date.value
                     },{
