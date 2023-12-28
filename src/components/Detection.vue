@@ -83,7 +83,7 @@
             formData.append(`images_${index}`, blob);
           });
           // console.log("formData",formData)
-          const response = await axios.post('http://127.0.0.1:5000/predict_objects', formData, {
+          const response = await axios.post('http://52.86.216.241:5000/predict_objects', formData, {
             headers: {
               'Content-Type': 'multipart/form-data',
             },
